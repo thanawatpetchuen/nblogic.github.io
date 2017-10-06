@@ -43,6 +43,14 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+img {
+-webkit-filter: grayscale(100%); 
+filter: grayscale(100%);
+}
+html {
+-webkit-filter: grayscale(100%);
+}
+
 section {
   padding: 100px 0; }
   section h2 {
@@ -312,3 +320,5 @@ footer {
   font-family: 'Kanit', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 11px;
   padding: 15px 45px; }
+
+  
